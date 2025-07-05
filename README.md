@@ -1,46 +1,85 @@
-# Getting Started with Create React App
+# Travel with AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web app to help you plan your next adventure, tour, or relaxation in India's top cities with AI-powered predictions for weather, cost, and more.
 
-## Available Scripts
+## Features
+- Select from famous Indian cities for travel, tour, adventure, and relaxation
+- View city details, attractions, and activities
+- Get current weather and AI-predicted weather for 1 week and 1 month
+- See estimated travel distances and costs
+- Clean, modern, mobile-friendly UI
 
-In the project directory, you can run:
+## Tech Stack
+- HTML5
+- CSS3 (with modern gradients and animations)
+- Vanilla JavaScript
+- Font Awesome icons
+- Google Fonts (Inter)
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. **Open the website:**
+   Simply open `index.html` in your web browser
+   
+   Or use a local server:
+   ```bash
+   # Using Python
+   python -m http.server 8000
+   
+   # Using Node.js
+   npx serve .
+   
+   # Using PHP
+   php -S localhost:8000
+   ```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. **Visit the website:**
+   Open your browser and go to `http://localhost:8000`
 
-### `npm test`
+## Features Included
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Cities Available
+- **Delhi** - Cultural capital with historical monuments
+- **Mumbai** - Entertainment hub with beaches and Bollywood
+- **Goa** - Beach paradise for relaxation and parties
+- **Jaipur** - Heritage city with forts and palaces
+- **Manali** - Adventure destination in the Himalayas
+- **Kerala** - Nature's paradise with backwaters
+- **Varanasi** - Spiritual capital on the Ganges
+- **Udaipur** - Romantic city of lakes
 
-### `npm run build`
+### AI Predictions
+- **Current Weather** - Real-time weather conditions
+- **7-Day Forecast** - Detailed weather predictions
+- **Monthly Predictions** - Seasonal weather patterns
+- **Distance Calculations** - From Delhi to selected cities
+- **Cost Estimates** - Complete travel cost breakdown
+- **Best Time to Visit** - Seasonal recommendations
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Interactive Features
+- Responsive design for all devices
+- Smooth animations and transitions
+- City selection with detailed information
+- Weather and cost predictions
+- Top attractions for each city
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Future Enhancements
+- Real weather API integration (OpenWeatherMap)
+- Google Maps integration for accurate distances
+- User location detection
+- Booking integration
+- More cities and attractions
+- User reviews and ratings
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## File Structure
+```
+travel-with-ai/
+├── index.html          # Main HTML file
+├── styles.css          # CSS styles and animations
+├── script.js           # JavaScript functionality
+└── README.md           # Project documentation
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+© 2024 Travel with AI. All rights reserved.

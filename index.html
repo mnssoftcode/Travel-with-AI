@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel with AI - Plan Your Indian Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <i class="fas fa-plane"></i>
+                Travel with AI
+            </h1>
+            <p class="subtitle">Plan your next adventure, tour, or relaxation in India's top cities with AI-powered predictions!</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="city-selection">
+                <h2>Select a City</h2>
+                <div class="cities-grid" id="citiesGrid">
+                    <!-- Cities will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <section class="city-details" id="cityDetails" style="display: none;">
+                <div class="city-header">
+                    <h2 id="selectedCityName"></h2>
+                    <button class="back-btn" onclick="hideCityDetails()">
+                        <i class="fas fa-arrow-left"></i> Back to Cities
+                    </button>
+                </div>
+                
+                <div class="details-grid">
+                    <div class="detail-card">
+                        <div class="card-header">
+                            <i class="fas fa-cloud-sun"></i>
+                            <h3>Current Weather</h3>
+                        </div>
+                        <div class="card-content" id="currentWeather">
+                            <div class="loading">Loading weather data...</div>
+                        </div>
+                    </div>
+
+                    <div class="detail-card">
+                        <div class="card-header">
+                            <i class="fas fa-calendar-alt"></i>
+                            <h3>Weather Forecast</h3>
+                        </div>
+                        <div class="card-content" id="weatherForecast">
+                            <div class="loading">Loading forecast...</div>
+                        </div>
+                    </div>
+
+                    <div class="detail-card">
+                        <div class="card-header">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Distance & Cost</h3>
+                        </div>
+                        <div class="card-content" id="distanceCost">
+                            <div class="loading">Calculating...</div>
+                        </div>
+                    </div>
+
+                    <div class="detail-card">
+                        <div class="card-header">
+                            <i class="fas fa-star"></i>
+                            <h3>Top Attractions</h3>
+                        </div>
+                        <div class="card-content" id="attractions">
+                            <div class="loading">Loading attractions...</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Travel with AI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
