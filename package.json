@@ -1,0 +1,23 @@
+{
+  "name": "travel-with-ai",
+  "version": "1.0.0",
+  "description": "A modern web app to help you plan your next adventure, tour, or relaxation in India's top cities with AI-powered predictions",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "travel",
+    "india",
+    "tourism",
+    "weather",
+    "predictions",
+    "ai"
+  ],
+  "author": "MNS Soft Code",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+} 
